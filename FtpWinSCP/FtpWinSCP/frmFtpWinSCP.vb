@@ -28,12 +28,12 @@ Public Class frmFtpWinSCP
     Dim PicturePath As String = MyPath(Application.StartupPath) & "Images\"
 
     '// ตำแหน่งของไฟล์ภาพบน Hosting
-    Dim MyURL As String = "http://thongkorn.com/upload/"
+    Dim MyURL As String = "http://DOMAINNAME.com/upload/"
     '// ตำแหน่งในการอัพโหลดไฟล์ภาพ (FTP)
-    Dim RemoteDir As String = "thongkorn.com/upload/"
+    Dim RemoteDir As String = "DOMAINNAME.com/upload/"
 
     '// For Login to Hosting.
-    Dim HostName As String = "thongkorn.com"
+    Dim HostName As String = "DOMAINNAME.com"
     Dim UName As String = "USERNAME"
     Dim Pwd As String = "PASSWORD"
 
